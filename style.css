@@ -1,7 +1,100 @@
+/*creating a stylized bordered box inside the header*/
 header {
-    background-color: rgb(58, 56, 56);
+    background-color: rgb(51, 19, 102);
     text-align: center;
+    padding-bottom: 1px;
+    margin-left: 650px;
+    margin-right: 650px;
+    border-radius: 20px;
+    padding-top: 1px;
 }
+/* changing the color of the whole page background */
 body {
-    background-color: rgb(247, 237, 192) ;
+    background-color: rgb(171, 172, 196) ;
 }
+
+h1 {
+    color: #ffffffde;
+    font-size: 40px;
+    margin-bottom: 1%;
+    margin-top: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-top: 1%;
+}
+
+h3 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h1 h2 h3 {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img {
+    vertical-align: center;
+}
+
+ul {
+    text-indent: 20%;
+    background-color: rgb(115, 117, 202);
+    padding: 5px;
+    border: 8px solid #30283a;
+    border-radius: 20px;
+    width: 500px;
+    margin-left: 700px;
+    font-weight:bold;
+}
+
+.list-inside li {
+    list-style-position: inside;
+    vertical-align: middle;
+  }
+  
+  p {
+    font-size: 20px;
+    margin-left: 500px;
+    margin-right: 500px;
+    font-family:'Times New Roman', Times, serif;
+  }
+
+  footer p {
+    text-align: center;
+    font-style: normal;
+    text-transform: none;
+  }
+  
+  hr {
+    margin-right: 150px;
+    margin-left: 150px;
+    height: 1px;
+    background-color: #ffffff;
+    color: #ffffff;
+    border: 2px
+  }
+  
+  a {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+  }
+  
+  a:link    { color: rgb(7, 7, 235);  }
+  a:visited { color: rgb(73, 5, 104);   }
+  a:hover   { color: rgb(49, 142, 230); }
+  a:active  { color: rgb(241, 3, 43);  }
+  footer ol {
+    text-indent: 20%;
+    background-color: rgb(115, 117, 202);
+    padding: 5px;
+    border: 6px solid #30283a;
+    border-radius: 20px;
+    width: 500px;
+    margin-left: 700px;
+    font-weight:bold;
+  }
