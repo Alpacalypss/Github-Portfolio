@@ -19,7 +19,7 @@ h1 {
     margin-bottom: 1%;
     margin-top: 20px;
 }
-
+/*modifying my header titles to emphasize them */
 h2 {
     text-align: center;
     font-size: 15px;
@@ -32,7 +32,7 @@ h3 {
     font-size: 24px;
     font-weight: bold;
 }
-
+/*changing the font style of all headings*/
 h1 h2 h3 {
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -52,7 +52,7 @@ ul {
     font-weight:bold;
 }
 
-.list-inside li {
+.list-inside li { /*containing lists inside of my bordered boxes*/
     list-style-position: inside;
     vertical-align: middle;
   }
@@ -64,7 +64,7 @@ ul {
     font-family:'Times New Roman', Times, serif;
   }
 
-  footer p {
+  footer p { /*just to center my footer lead in to contact links for aesthetic*/
     text-align: center;
     font-style: normal;
     text-transform: none;
@@ -83,7 +83,7 @@ ul {
     font-family: Arial, sans-serif;
     font-size: 20px;
   }
-  
+  /*formatting links by state with pseudo-elements*/
   a:link    { color: rgb(7, 7, 235);  }
   a:visited { color: rgb(73, 5, 104);   }
   a:hover   { color: rgb(49, 142, 230); }
